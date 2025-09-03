@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+img {
+    text-align: center;
+}
+
+.satauri {
+    text-align: center;
+}
+
+#image {
+    text-align: center;
+    width: 100px;
+    height: auto;
+}
+
+.images {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}

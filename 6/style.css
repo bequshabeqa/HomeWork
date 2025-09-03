@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    padding: 15px;
+}
+
+li {
+    text-align: center;
+    display: inline;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-item{
+    background-color: rgb(245, 185, 245);
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+
+i{
+    font-size: 15px;
+    color: sandybrown;
+    background-color: rgb(102, 18, 141);
+    padding: 15px;
+    border-radius: 100%;
+}
+
+button{
+    background-color: rgb(102, 18, 141);
+    color: white;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}

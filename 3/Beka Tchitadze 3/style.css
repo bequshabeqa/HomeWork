@@ -1,0 +1,51 @@
+header{
+    background-color: blanchedalmond;
+    margin-left: 25px;
+}
+
+main{
+    background-color: aquamarine;
+}
+
+footer{
+    text-align: center;
+}
+
+.statia{
+    margin-left: 25px;
+    width: 600px;
+    height: 500px;
+}
+
+.mtavari{
+    display: flex;
+    width: 800px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.main{
+    display: inline;
+}
+
+.info-map{
+    text-align: center;
+}
+
+.map{
+    margin: auto;
+}
+
+.info{
+    color: green;
+}
+
+span{
+    color: red;
+}
+
+/* 
+*{
+    margin: 0; padding: 0;
+}
+*/

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Beka";
+    src: url(Fonts/beka.ttf);
+
+    font-family: margo;
+    src: url(Fonts/margo.ttf);
+
+    font-family: 3D;
+    src: url(Fonts/3d_unicode.ttf);
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    padding: 15px;
+}
+
+li {
+    text-align: center;
+    display: inline;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+h2 {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.Blog-1 {
+    font-family: "margo";
+    margin: auto;
+    padding: 5px 10px;
+    width: 1500px;
+    height: 1100px;
+    border: 10px solid black;
+    text-decoration: underline;
+}
+
+.Blog-11 p {
+    font-style: italic;
+    background-color: green;
+}
+
+.Blog-2 {
+    font-family: "Beka";
+    margin: auto;
+    padding: 10px;
+    width: 900px;
+    height: 700px;
+    border: 25px dotted green;
+}
+
+.Blog-21 {
+    text-decoration: underline;
+}
+
+.Blog-3 {
+    font-family: "3D";
+    margin: 15px;
+    padding: 25px auto;
+    width: 750px;
+    height: 800px;
+    border: 15px dashed yellow;
+}
+
+.Blog-31 {
+    background-color: bisque;
+    text-style: bold;
+}
