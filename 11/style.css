@@ -1,0 +1,92 @@
+:root{
+    --main-color: grey;
+    --second-color: rgb(128, 128, 128);
+    --color: orange;
+}
+
+
+.container{
+    display: grid;
+    width: 600px;
+    background-color: yellow;
+    padding: 10px;
+    margin: auto;
+    padding: 12px;
+    gap: 25px;
+    place-items: center;
+
+}
+
+.calculator{
+    display: grid;
+    grid-template-areas: 
+    'space space space space'
+    'main main main main'
+    'mane mane mane main';
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 15px;
+    gap: 25px;
+    width: 60%;
+    
+}
+
+.calculator > div {
+    
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.number{
+    background-color: #7e9fb4;
+}
+
+
+.space{
+    grid-column: 1 / span 4;
+    height: 25px;
+    border-radius: 5px;
+    padding: 12px;
+    color: #333;
+    align-items: center;
+    background-color: #7e9fb4;
+
+}
+
+.bg{
+    background-color: #505050;
+}
+
+.mc{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.m+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.gayofa{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.gamravleba{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item-0{
+    grid-column: 1 / span 2;
+}
+
+.toloba{
+    grid-column: 4;
+    grid-row: 5 / span 2;
+    text-align: center;
+    background-color: var(--color);
+}
