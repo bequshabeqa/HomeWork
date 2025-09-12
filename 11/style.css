@@ -23,7 +23,7 @@
     'space space space space'
     'main main main main'
     'mane mane mane main';
-    background-color: yellow;
+    background-color: #505050;
     padding: 10px;
     border-radius: 15px;
     gap: 25px;
@@ -38,7 +38,9 @@
     font-size: 25px;
     text-align: center;
     color: white;
+    
 }
+
 
 .number{
     background-color: #7e9fb4;
@@ -50,14 +52,20 @@
     height: 25px;
     border-radius: 5px;
     padding: 12px;
-    color: #333;
+    color: #edf7b5;
     align-items: center;
-    background-color: #7e9fb4;
+    background-color: #ecf3d3;
 
 }
 
+.shedegi{
+    grid-column: 1 / span 4;
+    color: var(--color);
+}
+
+
 .bg{
-    background-color: #505050;
+    background-color: #adabab;
 }
 
 .mc{
