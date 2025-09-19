@@ -6,7 +6,7 @@
 
 
 .container{
-    display: grid;
+    
     width: 600px;
     background-color: yellow;
     padding: 10px;
@@ -14,7 +14,6 @@
     padding: 12px;
     gap: 25px;
     place-items: center;
-
 }
 
 .calculator{
@@ -32,7 +31,6 @@
 }
 
 .calculator > div {
-    
     border-radius: 3px;
     padding: 10px;
     font-size: 25px;
@@ -52,9 +50,8 @@
     height: 25px;
     border-radius: 5px;
     padding: 12px;
-    color: #edf7b5;
+    background-color: #edf7b5;
     align-items: center;
-    background-color: #ecf3d3;
 
 }
 

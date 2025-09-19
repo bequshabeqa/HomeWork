@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.mtavari{
+    border: 25px solid #d3d1d1;
+
+}
+
+/* .mtavari{
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 30px solid #add1da;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+} */
+
+.form-header{
+    text-align: center;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.color{
+    color: blue;
+}
+
+.contact{
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+.gender-head{
+    display: flex;
+    margin: 10px 0;
+}
+
+.radio-option{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.radio-option input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.radio-option label{
+    display: inline;
+}
+
+.urgency-box{
+    display: flex;
+    align-items: center;
+}
+
+.urgency-box input{
+    margin-right: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.mb-20{
+    margin-left: 20px;
+}
+
+.contact-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.approve{
+    display: flex;
+}
+
+

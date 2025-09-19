@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    background-color: white;
+    border: 25px solid #d3d1d1;
+}
+
+.top{
+    text-align: center;
+}
+
+.color{
+    color: blue;
+}
+
+.c-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    gap: 8px;
+    margin-right: 20px;
+}
+
+.right-side,
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+.mb-20{
+    margin-left: 20px;
+}
+
+.radio-group label{
+    display: inline;
+}
