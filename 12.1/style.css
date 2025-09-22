@@ -19,6 +19,7 @@ form{
 .main{
     background-color: white;
     border: 25px solid #d3d1d1;
+    padding-right: 10px;
 }
 
 .top{
@@ -61,4 +62,8 @@ input{
 
 .radio-group label{
     display: inline;
+}
+
+.approval{
+    display: flex;
 }
