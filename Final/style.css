@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'ubuntu';
+    src: url(font/Ubuntu-Regular.ttf);
+}
+
+body{
+    /* font-family: "Edu NSW ACT Foundation", cursive; */
+    font-family: 'ubuntu';
+    background-color: #f0f1f3;
+}
+
+header{
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 0 0 130px;
+    background-color: black;
+    color: white;
+    text-align: fixed;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+nav ul li{
+    display: inline;
+    text-align: center;
+    position: relative;
+}
+
+nav ul a{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+.banner{
+    max-width: 1920px;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1400px;
+    /* border: 1px solid red; */
+}
+
+.container-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+
+.text-content{
+    background-color: black;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    background-color: rgba(251, 251, 251, 1);
+    border-radius: 50px;
+    align-items: center;
+    padding: 5px;
+}
+
+.color {
+    color: rgba(100, 204, 197, 1);
+}
+
+
+/* .footer {
+    display: grid;
+    align-items: center;
+    width: 1920px;
+    height: 604px;
+    margin: 0px auto;
+}
+
+.bottom-footer{
+    display: flex;
+
+} */
+
+.card-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 420px;
+    height: 368px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(244, 244, 244, 1);
+    font-size: 20px;
+}
+
+.select-card{
+    background-color: black;
+    color: white;
+}
+
+.card img{
+    background-color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.page-one{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.m-minus{
+    position: absolute;
+    left: -41px;
+    top: 189px;
+    width: 183px;
+    height: 192px;
+}
+
+.text-left{
+    max-width: 836px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.image{
+    width: 850px;
+    height: 850px;
+}
+
+.one-page img{
+    width: 850px;
+    height: 850px;
+}
+
+.header-bottom{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.page-two{
+    padding-top: 10px;
+    top: 1138px;
+    left: 260px;
+}
+
+.container-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 2 / 1 / 3 / 2; }
+.div5 { grid-area: 2 / 2 / 3 / 3; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+
+
+
+
+
+.page-four{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.page-five{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.page-six{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: Ligh-Grey;
+    width: 1400px;
+    height: 480px;
+    top: 5637px;
+}
+
+.page-six img{
+    width: 150px;
+    height: 150px;
+}
+
+.icon-six{
+    width: 44.44px;
+    height: 44.44px;
+}
+
+.page-last{
+    display: flex;
+    /* justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1400px; */
+    background-color: black;
+    color: white;
+}
+
+.footer-container{
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.footer-section{
+    flex: 1;
+    min-width: 300px;
+    background-color: black;
+    color: white;
+}
+
+.footer-section h2{
+    margin-bottom: 20px;
+}
+
+.footer-section ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Contact{
+    text-align: right;
+}
+
+.breack{
+    border: 1px solid rgba(223, 223, 223, 1);
+    width: 100%;
+}
+
+.footer-bottom{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+
+
+.button-color{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.user-reg{
+    display: flex;
+    max-width: 100vh;
+
+    border: 1px solid red;
+}
+
+.user-reg-container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.user-reg-left{
+    width: 401px;
+    height: 530px;
+}
+
+.user-reg-right{
+    width: 795px;
+    height: 520px;
+}
+
+.user-contact{
+    display: inline;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    padding: 10px;
+}
+
+.Contact{
+    background-color: white;
+    color: black;
+}
+
+.Contact a, .Contact li {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}   
+
+.user-reg img{
+    width: 50px;
+    height: 50px;
+}
+
+.d-grey{
+    color: Dark-Grey;
+}
+
+.c-w{
+    color: white;
+}
