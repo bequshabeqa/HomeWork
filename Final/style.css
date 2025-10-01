@@ -623,3 +623,12 @@ grid-row-gap: 0px;
 .card-2 img{
     width: 400px;
 }
+
+
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
